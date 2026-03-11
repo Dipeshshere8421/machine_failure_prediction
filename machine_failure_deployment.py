@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Vmwgh_QCsHsTqKsJvqbavCIbPs58iRd2
 """
 
-import stremlit as st
+import streamlit as st
 import pandas as pd
 import joblib
 model = joblib.load("machine_failure_prediction_model.pkl")
