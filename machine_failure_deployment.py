@@ -10,8 +10,8 @@ Original file is located at
 import stremlit as st
 import pandas as pd
 import joblib
-model = joblib.load("machine_failure_predication_model.pkl")
-st.title("machine failure predication system")
+model = joblib.load("machine_failure_prediction_model.pkl")
+st.title("machine failure prediction system")
 st.write("you can emter the data from sensor and check whether your machine will work or fail under certain condition")
 footfall = st.number_input("footfall")
 tempMode = st.number_input("tempMode")
